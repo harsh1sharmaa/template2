@@ -1,5 +1,5 @@
 #mainh{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(186, 186, 186);
     margin-bottom: 0px;
     height: 70px;
     padding-left: 20px;
@@ -11,7 +11,7 @@ a{
     color: #ffffff;
     /* margin-top: 5px; */
     border-left: 2px solid white;
-    padding: 10px 2px 10px 2px;
+    padding: 10px 2px 10px 13px;
 }
 li{
     float: left;
@@ -39,8 +39,52 @@ ul{
     margin-left: 0px;
     padding-left: 0px;
 }
-#for{
-    padding: 4px 10px 5px 0px;
+#for:hover{
+    padding: 4px 10px 5px 0px; 
     background-color: rgb(19, 138, 29);
-    border-top: 2px solid green;
+    /* border-top: 2px solid green;  */
+    background-color:green ;
+}
+#cont h2{
+    color: blue;
+}
+#sidebar h2{
+    color: rgb(105, 105, 189);
+}
+/* #h2{
+    font-weight: bold;
+    font-size: 20px;
+} */
+#cont{
+    width: 60%;
+
+    display: inline;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    /* background-color: khaki; */
+    
+    
+}
+#sidebar{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color:rgb(221, 216, 216);
+    padding-bottom: 18.7%;
+    padding-left: 5%;
+
+    
+}
+#main{
+    overflow: hidden;
+}
+#fotr{
+    
+    height: 40px;
+    background-color:rgb(186, 186, 186);
+}
+#fotr div{
+    float: right;
+    padding-right: 20px;
 }
